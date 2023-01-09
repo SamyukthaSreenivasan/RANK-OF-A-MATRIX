@@ -14,12 +14,19 @@ Use the function import math
 Print the rank of a matrix and end the program
 ## Program:
 #Program to find the rank of a matrix.
+
 #Developed by: Samyuktha.S
+
 #RegisterNumber:22005276
+
 import numpy as np
+
 a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+
 rank=np.linalg.matrix_rank(a)
+
 print(rank)
+
 ## Output:
 ![output](/git.png)
 ## Result:
